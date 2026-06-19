@@ -11,7 +11,8 @@ body {
     text-align: center;         
     position: fixed;            
     width: 100%;               
-    top: 0;         
+    top: 0;  
+    z-index: 1000;       
 }
 
 .navbar ul {
@@ -33,8 +34,7 @@ body {
 
 
 .main-content {
-    margin-top: 80px;    
-    padding: 20px;
+    padding-top: 5em;
 }
 
 .main-content section {
